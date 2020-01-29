@@ -1,0 +1,93 @@
+{
+    "READYBOWL": {
+        "CONFIG": {
+            "STARTER": {
+                "URL": "http://readybowl.com/",
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "MODALCLOSE": {
+                        "FIND_BY": "class",
+                        "VALUE": "c-modal-close"
+                    },
+                    "SEEMORE": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.u-flex-center-center"
+                    },
+                    "CLICKED": {
+                        "FIND_BY": "class",
+                        "VALUE": "s-btn-secondary"
+                    },
+                    "ALL_REST": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.s-row.u-gutterless-2.u-stack-y-4"
+                    },
+                    "REST_NAMES": {
+                        "FIND_BY": "class",
+                        "VALUE": "s-card"
+                    },
+                    "CHOOSETHIS": {
+                        "FIND_BY": "class",
+                        "VALUE": "js-location__choosethis"
+                    },
+                    "SUBMENU": {
+                        "FIND_BY": "class",
+                        "VALUE": "has-submenu"
+                    },
+                    "PRE_ORDER": {
+                        "FIND_BY": "css",
+                        "VALUE": "button.btn.btn-primary"
+                    }
+                }
+            },
+            "DISH": {
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "DISHESH": {
+                        "FIND_BY": "class",
+                        "VALUE": "shopping-item"
+                    },
+                    "DISH_TYPE": {
+                        "FIND_BY": "tag",
+                        "VALUE": "small"
+                    },
+                    "DISH_QUANTITY": {
+                        "FIND_BY": "class",
+                        "VALUE": "item-price"
+                    },
+                    "IMAGE": {
+                        "FIND_BY": "tag",
+                        "VALUE": "img"
+                    },
+                    "TD": {
+                        "FIND_BY": "tag",
+                        "VALUE": "td"
+                    },
+                    "NAME": {
+                        "FIND_BY": "tag",
+                        "VALUE": "h4"
+                    },
+                    "CAT": {
+                        "FIND_BY": "tag",
+                        "VALUE": "th"
+                    },
+                    "PRICE": {
+                        "FIND_BY": "css",
+                        "VALUE": "span.menuItem-displayPrice"
+                    },
+                    "URL": {
+                        "FIND_BY": "tag",
+                        "VALUE": "a"
+                    },
+                    "ITEM": {
+                        "FIND_BY": "class",
+                        "VALUE": "shopping-item"
+                    },
+                    "DESC": {
+                        "FIND_BY": "tag",
+                        "VALUE": "p"
+                    }
+                }
+            }
+        }
+    }
+}

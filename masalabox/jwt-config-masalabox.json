@@ -1,0 +1,85 @@
+{
+    "MASALABOX": {
+        "CONFIG": {
+            "STARTER": {
+                "URL": "https://www.masalabox.com/bangalore/allproducts",
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "MODALCLOSE": {
+                        "FIND_BY": "class",
+                        "VALUE": "c-modal-close"
+                    },
+                    "SEEMORE": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.u-flex-center-center"
+                    },
+                    "CLICKED": {
+                        "FIND_BY": "class",
+                        "VALUE": "s-btn-secondary"
+                    },
+                    "ALL_REST": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.s-row.u-gutterless-2.u-stack-y-4"
+                    },
+                    "REST_NAMES": {
+                        "FIND_BY": "class",
+                        "VALUE": "s-card"
+                    },
+                    "CHOOSETHIS": {
+                        "FIND_BY": "class",
+                        "VALUE": "js-location__choosethis"
+                    },
+                    "SUBMENU": {
+                        "FIND_BY": "class",
+                        "VALUE": "has-submenu"
+                    }
+                }
+            },
+            "DISH": {
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "DISHESH": {
+                        "FIND_BY": "class",
+                        "VALUE": "table"
+                    },
+                    "THEAD": {
+                        "FIND_BY": "tag",
+                        "VALUE": "thead"
+                    },
+                    "TBODY": {
+                        "FIND_BY": "tag",
+                        "VALUE": "tbody"
+                    },
+                    "TR": {
+                        "FIND_BY": "tag",
+                        "VALUE": "tr"
+                    },
+                    "BR": {
+                        "FIND_BY": "tag",
+                        "VALUE": "br"
+                    },
+                    "TD": {
+                        "FIND_BY": "tag",
+                        "VALUE": "td"
+                    },
+                    "P": {
+                        "FIND_BY": "tag",
+                        "VALUE": "p"
+                    },
+                    "NAME": {
+                        "FIND_BY": "tag",
+                        "VALUE": "tr"
+                    },
+                    "CAT": {
+                        "FIND_BY": "tag",
+                        "VALUE": "th"
+                    },
+                    "PRICE": {
+                        "FIND_BY": "css",
+                        "VALUE": "span.menuItem-displayPrice"
+                    }
+                }
+            }
+        }
+    }
+}

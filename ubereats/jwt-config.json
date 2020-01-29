@@ -1,0 +1,112 @@
+{
+    "UBEREATS": {
+        "CONFIG": {
+            "STARTER": {
+                "URLS":{
+                    "bangalore":"https://www.ubereats.com/en-IN/bangalore/indian-delivery/",
+                    "jaipur":"https://www.ubereats.com/en-IN/jaipur/indian-delivery/",
+                    "hyderabad":"https://www.ubereats.com/en-IN/hyderabad/indian-delivery/",
+                    "delhi":"https://www.ubereats.com/en-IN/new-delhi/indian-delivery/",
+                    "gurgaon":"https://www.ubereats.com/en-IN/new-delhi/indian-delivery/",
+                    "kolkata":"https://www.ubereats.com/en-IN/kolkata/indian-delivery/"
+                   },
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "WAIT":{
+                        "FIND_BY":"css",
+                        "VALUE":"div.al.am.an.ak.ao"
+                    },
+                    "SEE_ALL": {
+                        "FIND_BY": "css",
+                        "VALUE": "span.sc-ifAKCX.iOqmJz"
+                    },
+                    "RESTAURANTS_CONTAINER":{
+                        "FIND_BY":"css",
+                        "VALUE": "div.sc-jvjHmY eckDKB"
+                    },
+                    "ALL_REST": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.dt.du.dv"
+                    },
+                    "REST_NAME": {
+                        "FIND_BY": "class",
+                        "VALUE": "merchant-tile_name"
+                    },
+                    "REST_TYPE": {
+                        "FIND_BY": "class",
+                        "VALUE": "merchant-tile_description"
+                    },
+                    "REST_RATING": {
+                        "FIND_BY": "css",
+                        "VALUE": "span.sc-hZhUor.jvVFmR.sc-ifAKCX.jFPWlt"
+                    },
+                    "REST_STARS": {
+                        "FIND_BY": "css",
+                        "VALUE": "span.sc-hZhUor.jvVFmR.sc-ifAKCX.jFPWlt"
+                    }
+                }
+            },
+            "RESTAURANT":{
+                "SELECTORS":{
+                    "WAIT":{
+                        "FIND_BY":"css",
+                        "VALUE":"div.ag.ah.ai.aj.ak"
+                    },
+                    "TYPE":{
+                        "FIND_BY": "css",
+                        "VALUE": "div.cr.cs.b7.dg.e0.b2.e1"
+                    },
+                    "NAME":{
+                        "FIND_BY": "css",
+                        "VALUE": "div.b5.b6.br.b8.dz.e0.e1.b2"
+                    },
+                    "SUBZONE":{
+                        "FIND_BY":"css",
+                        "VALUE":"p.c1.c2.b0.b1.d6"
+                    },
+                    "OPENS_AT":{
+                        "FIND_BY":"class",
+                        "VALUE":"fulfillment-information"
+                    },
+                    "STARS":{
+                        "FIND_BY": "css",
+                        "VALUE": "span.sc-hZhUor.jvVFmR.sc-ifAKCX.jFPWlt"
+                    },
+                    "RATINGS":{
+                        "FIND_BY": "css",
+                        "VALUE": "span.sc-hZhUor.jvVFmR.sc-ifAKCX.jFPWlt"
+                    },
+                    "STARS_RATINGS":{
+                        "FIND_BY":"css",
+                        "VALUE":"div.ap.ar"
+                    }
+                }
+            },
+            "DISH": {
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "DISHESH": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.ee.ef.eg.al"
+                    },
+                    "NAME": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.clamp-lines "
+                    },
+                    "PRICE": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.ay.az.b0.b1"
+                    },
+                    "IMAGE": {
+                        "FIND_BY": "tag",
+                        "VALUE": "img"
+                    },
+                    "DESC": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.c1.c2.b0.ct"
+                    }
+                }
+            }
+        }
+    }
+}

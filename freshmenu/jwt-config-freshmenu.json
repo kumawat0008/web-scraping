@@ -1,0 +1,73 @@
+{
+    "FRESHMENU": {
+        "CONFIG": {
+            "STARTER": {
+                "URL": "https://www.freshmenu.com/",
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "CLICKBUTTON": {
+                        "FIND_BY": "css",
+                        "VALUE": "button.sc-lhGUXL.cBORck"
+                    },
+                    "CITY": {
+                        "FIND_BY": "id",
+                        "VALUE": "FieldWrapper-2"
+                    },
+                    "SEEALL": {
+                        "FIND_BY": "css",
+                        "VALUE": "span.sc-ifAKCX.iOqmJz"
+                    },
+                    "ALL_REST": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.sc-cxZfpC"
+                    }
+                }
+            },
+            "DISH": {
+                "BEAUTIFUL_SOUP": false,
+                "SELECTORS": {
+                    "ITEMS": {
+                        "FIND_BY": "class",
+                        "VALUE": "info"
+                    },
+                    "DISHES": {
+                        "FIND_BY": "class",
+                        "VALUE": "fm-product-new--body"
+                    },
+                    "NAME": {
+                        "FIND_BY": "tag",
+                        "VALUE": "h1"
+                    },
+                    "IMAGE":{
+                        "FIND_BY":"class",
+                        "VALUE":"fm-image"
+                    },
+                    "PRICE_OFFER": {
+                        "FIND_BY": "class",
+                        "VALUE": "ng-binding"
+                    },
+                    "PRICE_TAG": {
+                        "FIND_BY": "css",
+                        "VALUE": "div.price.ng-scope"
+                    },
+                    "AVAILABLE": {
+                        "FIND_BY": "class",
+                        "VALUE": "fm-product-new--body--available-from"
+                    },
+                    "DESC": {
+                        "FIND_BY": "class",
+                        "VALUE": "fm-detail-about-meal-description"
+                    },
+                    "INGREDIENTS": {
+                        "FIND_BY": "class",
+                        "VALUE": "fm-ingredients-list"
+                    },
+                    "NUTRITION": {
+                        "FIND_BY": "class",
+                        "VALUE": "fm-product-nutrition"
+                    }
+                }
+            }
+        }
+    }
+}
